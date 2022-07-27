@@ -1,4 +1,3 @@
-# fcc-product-landing-page
 # Product Landing Page - freeCodeCamp RWD Project 4 
 A One Stop Learning Guide To NASA's Newest Telescope
 
