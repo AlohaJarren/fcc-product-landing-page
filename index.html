@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Lexend+Exa:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+    </head>
+    <body>
+        <header id="header">
+            <nav id="nav-bar">
+                <ul>
+                    <li class="nav-text nav-text-left">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-text nav-text-left">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li id="image-li">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/2/22/James_Webb_Space_Telescope_logo.svg"
+            alt="James Webb Space Telescope Logo via Wikimedia Commons" id="header-img" width="100">
+                    </li>
+                    <li class="nav-text nav-text-right">
+                        <a class="nav-link" href="#specifications">Specs</a>
+                    </li>
+                    <li class="nav-text nav-text-right">
+                        <a class="nav-link" href="#images">Images</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="home">
+                <h1>The James Webb Space Telescope</h1>
+                <p> 
+                    So we're gonna see the snapshot of when stars started.
+                    When galaxies started. The very first moments of the universe. 
+                    And my bet? There's gonna be some big surprises. &nbsp;&nbsp;&nbsp;~John M. Grunsfeld
+                </p>
+            </section>
+            <section id="about">
+                <div class="about-col1">
+                    <h1>About JWST</h1>
+                    <p class="about-text"> The James Webb Space Telescope will be the next great space science observatory, 
+                        designed to answer outstanding questions about the Universe and to make breakthrough discoveries in all fields of astronomy.
+                    </p>
+                    <p class="about-text">
+                        Launched in December 2021 on an Ariane 5 rocket from Europe's Spaceport in French Guiana, 
+                        Webb is designed and built to offer scientists the capabilities needed to push the frontiers of knowledge in many areas of astronomy. 
+                        This includes research on our own Solar System, the formation of stars and planets (including planets outside our Solar System — exoplanets), 
+                        and on how galaxies are formed and evolve, in ways never before possible.
+                    </p>
+                    <p class="about-text">
+                        The James Webb Space Telescope is an international project led by NASA in partnership with ESA and the Canadian Space Agency. 
+                        In addition to providing the Ariane 5 rocket and launch services to bring the telescope into space, 
+                        ESA is also providing instruments for the telescope as well as scientists who will support the mission's operations.
+                    </p>
+                </div>
+                <div class="about-col2">
+                    <iframe width="672" height="378" src="https://www.youtube.com/embed/TS1k5XVSX5w" 
+                    title="YouTube video player" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    id="video"
+                    allowfullscreen>
+                    </iframe>
+                    <form id="form" action="https://www.freecodecamp.com/email-submit">
+                        <p id="prompt_user_email">Want to learn more?</p>
+                        <input id="email" type="email" name="email" placeholder="Enter your email" required>
+                        <input id="submit" type="submit" value="Submit" />
+                    </form>
+                </div>
+            </section>
+            <section id="specifications">
+                <h1>Technical Specifications</h1>
+                <p class="spec-text">
+                    The European Space Agency provided the NIRSpec instrument, the workhorse near-infrared spectrograph on board Webb.
+                    The primary goal of NIRSpec is to enable large spectroscopic surveys of astronomical objects such as stars or distant galaxies. 
+                    This is made possible by its powerful multi-object spectroscopy mode. 
+                </p>
+                <p class="spec-text">
+                    ESA is also supporting the provision of the MIRI instrument, the only instrument on the telescope that is capable of operating at mid-infrared wavelengths. 
+                    It will support the whole range of Webb's science goals, from observing our own Solar System and other planetary systems, to studying the early Universe. 
+                    MIRI is a versatile instrument offering a wide set of modes. 
+                </p>
+                <p class="spec-text">
+                    Webb will observe the Universe at wavelengths longer than visible light, namely in the near-infrared and mid-infrared. 
+                    Compared to Hubble's 2.4-metre primary mirror, Webb is equipped with a primary mirror that spans 6.5 metres in diameter. 
+                    Another key difference between Hubble and Webb is where they are located to study the cosmos. 
+                    While Hubble is positioned in Earth orbit at an altitude of approximately 570 kilometres, 
+                    Webb will be orbiting a point in space beyond the orbit of the Moon known as a Lagrange point, roughly 1.5 million kilometres from Earth. 
+                </p>
+                <div id="telescopes-div">
+                    <figure>
+                        <img src="https://ichef.bbci.co.uk/news/640/cpsprodpb/72C0/production/_124367392_jwst_hubble_comparison_2x640-nc.png"
+                    alt="JWST vs. Hubble via BBC News" class="spec-img" width="100">
+                        <figcaption>Fig.1 - JWST v. Hubble (BBC News)</figcaption>
+                    </figure> 
+                    <figure>
+                        <img src="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2021/06/comparing_webb_and_hubble/23314247-1-eng-GB/Comparing_Webb_and_Hubble_pillars.jpg"
+                        alt="JWST vs. Hubble via European Space Agency" class="spec-img" width="100">
+                        <figcaption>Fig.2 - JWST v. Hubble (ESA)</figcaption>
+                    </figure>
+                </div>
+            </section>
+            <h1 id="image-gallery-header">JWST Image Gallery</h1>
+            <section id="images">
+                <img src="https://www.nasa.gov/sites/default/files/styles/full_width/public/thumbnails/image/main_image_star-forming_region_carina_nircam_final-1280.jpg?itok=9hyNVMwe"
+                alt="Carina Nebula">
+                <img src="https://www.nasa.gov/sites/default/files/styles/full_width/public/thumbnails/image/main_image_galaxies_stephans_quintet_sq_nircam_miri_final-1280.jpg?itok=HyMw6H_h"
+                alt="Stephan's Quintet">
+                <img src="https://www.nasa.gov/sites/default/files/styles/full_width/public/thumbnails/image/main_image_stellar_death_s_ring_miri_nircam_sidebyside-1280.jpg?itok=VyowVs82"
+                alt="Southern Ring Nebula">
+                <img src="https://www.nasa.gov/sites/default/files/styles/full_width/public/thumbnails/image/main_image_deep_field_smacs0723-1280.jpg?itok=6-LM40Qf" 
+                alt="SMACS 0723">
+                <img src="https://blogs.nasa.gov/webb/wp-content/uploads/sites/326/2022/07/jupiter_hi_res_atmo-1.png" 
+                alt="Jupiter and it's Moon Europa">
+                <img src="https://s.w-x.co/util/image/w/in-space_james_webb_telescope.jpg?crop=16:9&width=480&format=pjpg&auto=webp&quality=60"
+                alt="Fine Guidance Sensor Image">
+            </section>
+        </main>
+        <footer>
+            <h4>Website Info Credit - <a href="https://esahubble.org/wordbank/james-webb-space-telescope/">ESA/Hubble</a> & <a href="https://www.nasa.gov/webbfirstimages">NASA.gov</a></h4>
+            <p>Created by <a href="">AlohaJarren</a></p>
+        </footer>
+    </body>
+</html>
